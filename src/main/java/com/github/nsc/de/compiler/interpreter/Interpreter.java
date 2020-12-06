@@ -32,7 +32,7 @@ public class Interpreter {
     // fields
 
     /**
-     * The global {@link Scope} of the interpreter (if you call visit without giving a {@link Scope} as
+     * The global {@link Scope} of the interpreter (if you call {@link #visit(Node)} without giving a {@link Scope} as
      * parameter this {@link Scope} will be used
      */
     private final Scope global;
